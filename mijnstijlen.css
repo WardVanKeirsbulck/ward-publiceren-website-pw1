@@ -1,0 +1,79 @@
+/*Algemene opmaak: de opmaak die geldig is voor alles op mijn webpagina*/
+body{
+    /* Background-image zorgt voor een achtergrond foto op mijn pagina.
+    Als url geef ik het pad op waar de foto zich bevindt */
+    background-image: url(../Images/achtergrond.jpg);
+    font-size: 16px;
+    /*Als het ene lettertype niet wordt ondersteunt door de browser gaat hij over naar het volgend lettertype*/
+    font-family: Calibri, Arial, sans-serif;
+
+    /*Justify = uitvullen*/
+    text-align: justify;
+}
+
+/* #voor een id*/
+#container{
+    background-color: white;
+    margin:10px auto;
+        /*Automatisch breedte van scherm aanpassen*/
+        width:100%;
+    /* De container mag maximaal breedte hebben van 1 200 px*/
+    max-width:1200px;
+    background-repeat: non;
+}
+
+/*De afbeelding in de banner moet gecentreerd staan*/
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    /* Er wordt rekening gehouden met de text die er eventueel rond staat */
+    display:block;
+    margin-bottom:10px;
+}
+
+nav{
+    border-bottom: rgb(201,201,201) solid 1px;
+
+    overflow: hidden;
+}
+.item{
+    float:left;
+    line-height: 25px;
+
+    border: solid 1px rgb(204,204,204);
+    border-radius: 5px 5px 0px 0px;
+
+    font-size:21px;
+    padding: 2px 5px;
+
+    margin-bottom: -3px;
+    margin-bottom: 0px 2px;
+    margin-right:5px;
+    
+}
+
+.item a{
+    text-decoration: none;
+    color:black;
+
+}
+
+aside{
+    width:25%;
+}
+
+main{
+    float:right;
+    width:70%;
+}
+
+#gegevens{
+    background-color: beige;
+    margin-left: 10px;
+    width:100%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
